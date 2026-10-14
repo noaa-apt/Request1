@@ -18,7 +18,7 @@ def _http(host, port, method):
     url = f"{scheme}://{host}:{port}/"
     try:
         req = urllib.request.Request(url, method=method)
-        req.add_header("User-Agent", "req1/1.0")
+        req.add_header("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
         req.add_header("Connection", "close")
         with urllib.request.urlopen(req, timeout=REQ_TIMEOUT) as resp:
             return True, str(resp.status)
