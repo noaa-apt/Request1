@@ -22,7 +22,7 @@ def _ask_port(proto):
 
 
 def _ask_message(proto):
-    return input(f"  {proto} message (blank = empty) > ").strip()
+    return input(f"  {proto} message > ").strip()
 
 
 def run_tcp(url, n, c):
@@ -91,7 +91,7 @@ def run_udp(url, n, c):
                     try:
                         s.recvfrom(4096)
                     except socket.timeout:
-                        error = "no reply (normal for UDP)"
+                        error = "no reply (This is normal for UDP!)"
                     status = 200
             except Exception as e:
                 error = str(e)
