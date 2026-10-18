@@ -12,7 +12,7 @@ HTTP
 Flags
   -n <num>          number of requests
   -c <num>          concurrency
-  -k                keep-alive
+  -k                keep alive
   -data <str|file>  body & form data
 
 Other protocols
@@ -25,10 +25,8 @@ Port scanner
   -portscan -any                 scan common ports
   -portscan -select,80,443,22    scan specific ports
 
-Test-all (scan + probe every protocol on every open port)
-  -testall                       scan all common ports silently, then fire one
-                                 request per port per protocol (HTTP GET/HEAD/OPTIONS,
-                                 TCP, UDP) and report allowed / denied
+Test-all 
+  -testall                       fires one request per port per protocol
 
 Examples
   -n 1 -c 1 -get http://example.com
