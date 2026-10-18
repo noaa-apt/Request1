@@ -1,7 +1,3 @@
-"""
-CLI argument parser and dispatcher.
-"""
-
 import sys
 import argparse
 from src.http_runner  import run_http
@@ -71,8 +67,6 @@ def dispatch(argv):
     if not args.url and not args.portscan and not args.testall:
         parser.print_help()
         return
-
-    # -testall
     if args.testall:
         if not args.url:
             print("Usage: -testall <url>")
