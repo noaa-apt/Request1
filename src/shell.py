@@ -3,7 +3,7 @@ import os
 import shlex
 from src.cli import dispatch
 
-BANNER = "  Request1 (1.0.10.9) www.ssb.surf/projects/requestone"
+BANNER = "  Request1 (1.0.11.0) www.ssb.surf/projects/requestone"
 
 HELP_TEXT = """
 HTTP
