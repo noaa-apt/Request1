@@ -1,4 +1,4 @@
-# Request1 1.0.19.9
+# Request1 1.0.11.0 ~ Minor bug fixes
 Request1 is a developer testing tool meant for Probing &amp; Testing Websites.
 ## Commands
 
