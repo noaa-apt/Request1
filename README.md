@@ -1,7 +1,6 @@
 # Request1 1.0.11.0 ~ Minor bug fixes
 # Request1 1.0.13.0 is Released as Experimental!
 Request1 is a developer testing tool meant for Probing &amp; Testing Websites.
-## Commands
 
 > [!CAUTION]
 > **This tool is meant for Authorized use only.**
@@ -14,7 +13,7 @@ Request1 is a developer testing tool meant for Probing &amp; Testing Websites.
 
 
 
-
+## Commands
 ```
 -n  <num>        requests to send
 -c  <num>        concurrency level
