@@ -56,3 +56,15 @@ Usernames starting in ``root``: http://ssb.surf/root.txt
 
 ---
 1.0.13.0 is entirely experimental! Meaning it is partially released!
+Common Mistakes with 1.0.13.0:
+
+Are you using -brute and not getting a password in return? Use -ubrute for unofficial browser (native) popups.
+
+Difference Between Official & Unofficial listed below as images.
+
+
+<img width="257" height="205" alt="image" src="https://github.com/user-attachments/assets/ae09133d-7915-453d-9f59-c9418a87c22f" />
+
+
+<img width="383" height="298" alt="image" src="https://github.com/user-attachments/assets/12ce5311-6cf0-472b-881f-cf0ce4d8a4a0" />
+
