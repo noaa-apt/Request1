@@ -45,3 +45,13 @@ Request1 is a developer testing tool meant for Probing &amp; Testing Websites.
 ```
 
 ---
+
+# Are you using version 1.0.13.0?
+
+If so, & using ``-ubrute`` or ``-brute``, We give out wordlists for free!
+
+Usernames starting in ``admin``: https://ssb.surf/admin.txt
+Usernames starting in ``root``: http://ssb.surf/root.txt
+
+---
+1.0.13.0 is entirely experimental! Meaning it is partially released!
