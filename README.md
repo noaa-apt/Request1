@@ -3,6 +3,18 @@
 Request1 is a developer testing tool meant for Probing &amp; Testing Websites.
 ## Commands
 
+> [!CAUTION]
+> **This tool is meant for Authorized use only.**
+>
+> This project is intended for security testing of websites and systems that you own or have explicit permission to assess. Do not use it against third-party systems without authorization, to disrupt services, to access data, or in violation of applicable laws or terms of service.
+>
+> You are responsible for confirming authorization, defining permitted targets and test scope, and complying with applicable requirements. Use conservative request rates, and stop testing if you observe service degradation or unexpected access to sensitive data.
+>
+> This project is provided “as is,” without warranties. The maintainers do not authorize or endorse unauthorized use and are not responsible for users’ actions or any resulting damage.
+
+
+
+
 ```
 -n  <num>        requests to send
 -c  <num>        concurrency level
@@ -64,7 +76,6 @@ Difference Between Official & Unofficial listed below as images.
 
 
 <img width="257" height="205" alt="image" src="https://github.com/user-attachments/assets/ae09133d-7915-453d-9f59-c9418a87c22f" />
-
 
 <img width="383" height="298" alt="image" src="https://github.com/user-attachments/assets/12ce5311-6cf0-472b-881f-cf0ce4d8a4a0" />
 
